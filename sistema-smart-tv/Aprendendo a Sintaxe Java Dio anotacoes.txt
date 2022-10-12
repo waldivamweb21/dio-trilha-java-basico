@@ -1,0 +1,31 @@
+Aprendendo a Sintaxe Java Dio
+
+Assunto: Métodos
+
+Padrão de escrita: camelCase ex: impostoRenda().
+
+Métodos: são ações dentro das FUNÇÕES ou SUB-ROTINAS em OOP. 
+
+O método tem que atribuir se é privado ou public, pois não é global.
+
+O método não retornar nada ele é chamado de: VOID.
+
+O método possui risco. comopor exemplo o cliente dividir por zero. coloca-se excessões TRYCAT.
+
+O método possui 4 tipos de VISIBILIDADE:
+- a toda aplicação;
+- no mesmo pacote;
+- na herança;
+- na própria classe.
+
+COMANDOS VSCODE JAVA
+
+Comandos Criar Projeto em Java no visual studio Code
+
+- CTRL + SHIFT + P => Create java Project;
+- ESCOLHE NOBUILDS;
+- PROCURA A PASTA onde está salvando os arquivos;
+- NOMEIA A PASTA COM O NOME DO ARQUIVO que voce deseja + ENTER;
+- RENOMEIA A CLASSE App.java que o VSCODE cria PADRÃO;
+ 
+-
