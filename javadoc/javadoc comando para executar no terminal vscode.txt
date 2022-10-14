@@ -1,0 +1,5 @@
+javadoc comando para executar no terminal vscode
+
+- Estando no diretório principal dos arquivos, execute o seguinte comando:
+
+javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/*.java
