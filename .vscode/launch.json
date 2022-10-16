@@ -1,0 +1,53 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch AboutMeScanner",
+            "request": "launch",
+            "mainClass": "AboutMeScanner",
+            "projectName": "dio-trilha-java-basico_ba66720a"
+        },
+        {
+            "type": "java",
+            "name": "Launch AboutMe2",
+            "request": "launch",
+            "mainClass": "AboutMe2",
+            "projectName": "dio-trilha-java-basico_ba66720a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AboutMe",
+            "request": "launch",
+            "mainClass": "AboutMe",
+            "projectName": "dio-trilha-java-basico_ba66720a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinhaClasse",
+            "request": "launch",
+            "mainClass": "MinhaClasse",
+            "projectName": "dio-trilha-java-basico_ba66720a"
+        },
+        {
+            "type": "java",
+            "request": "launch",
+            "mainClass": "AboutMe",
+            "args": [
+                "WAL",
+                "ALVES",
+                "38",
+                "1.85"
+            ]
+        }
+    ]
+}
