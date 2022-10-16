@@ -178,7 +178,7 @@ public class CLBSAula3 {
             case "Domingo":
                 System.out.println(1);
                 break;
-            default:
+            default:  //Sempre usar default.
 //                System.out.println(1);
                 System.out.println("Dia inválido");
                 break;
