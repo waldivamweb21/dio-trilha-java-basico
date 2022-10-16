@@ -13,6 +13,8 @@ public class CLBSAula3 {
         switchNumero();
         switchFerias();
     }
+    
+    // Varios IFS aninhados em forma de flecha. Uma Forma ERRADA, de programar embora o resultado do código esteja certa.
 
     private static void ifFlecha() {
 
@@ -68,6 +70,8 @@ public class CLBSAula3 {
         }
     }
 
+      // Sem IFS aninhados só com IFS e SEM forma de flecha. Uma Forma CERTA, de programar com resultado do código.
+    
     private static void ifSemFlecha() {
 
         int mes = 9;
@@ -104,6 +108,8 @@ public class CLBSAula3 {
 
     }
 
+    // O correto é não aplicar IF com apenas UMA variavel definida. E SIM usar SWITCH.
+
     private static void ifFerias() {
 
         String mes = "julho";
@@ -111,6 +117,8 @@ public class CLBSAula3 {
             System.out.println("Férias");
         }
     }
+
+    // Operadores logicos de forma Correta com VARIAVEIS INTERMEDIARIAS.
 
     private static void ifMenor() {
 
@@ -120,9 +128,13 @@ public class CLBSAula3 {
         int quantidadeDependentes = 4;
         int mediaDependentes = 2;
 
+        // Esta opcao abaixo para 2 variaveis a serem comparadas.
+
         if ((salarioMensal < mediaSalario) && (quantidadeDependentes >= mediaDependentes)) {
             System.out.println("Funcionário deve receber auxílio.");
         }
+        
+         // Esta opcao abaixo para 3 variaveis ou mais a serem comparadas.
 
         boolean salarioBaixo = salarioMensal < mediaSalario;
         boolean muitosDependentes = quantidadeDependentes >= mediaDependentes;
@@ -138,6 +150,7 @@ public class CLBSAula3 {
             System.out.println("Funcionário não deve receber auxílio.");
         }
 
+        // Melhor opcao para nao repetir varios IFs.
     }
 
     private static void switchSemana() {
